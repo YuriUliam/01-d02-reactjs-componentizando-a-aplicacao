@@ -1,11 +1,7 @@
-import { useEffect, useState } from 'react';
-
 import { SideBar } from './components/SideBar';
 import { Content } from './components/Content';
 
-import { MoviesProvider, useMoviesContext } from './contexts/movies';
-
-import { api } from './services/api';
+import { MoviesProvider } from './contexts/movies';
 
 import './styles/global.scss';
 
